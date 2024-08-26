@@ -1,0 +1,52 @@
+/* UpcomingEvents.css */
+
+.upcoming-events {
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .upcoming-events h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .upcoming-events ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .upcoming-events li {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .upcoming-events li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .upcoming-events h3 {
+    font-size: 1.8rem;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+  
+  .upcoming-events p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .upcoming-events p:first-of-type {
+    font-weight: bold;
+    color: #333;
+  }
+  

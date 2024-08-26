@@ -1,0 +1,76 @@
+/* sites.css */
+
+.slick-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.sites-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.site-card {
+  flex: 0 0 auto;
+  width: 600px;
+  height: 400px;
+  margin: 0 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-left {
+  left: 0;
+}
+
+.scroll-right {
+  right: 0;
+}
+
+.ayodhya-dham {
+  background-image: url(' /home/shashank/pilgrims-website/src/components/asset/p3.jpg');
+}
+
+.varanasi {
+  background-image: url(' /home/shashank/pilgrims-website/src/components/asset/1.jpg');
+}
+
+.haridwar {
+  background-image: url('/home/shashank/pilgrims-website/src/components/asset/mathura.jpg');
+}
+
+.site-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.site-card p {
+  font-size: 1rem;
+  margin: 0;
+}
